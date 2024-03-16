@@ -1,0 +1,42 @@
+body {
+    background-color: #2D3250;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.sub-title {
+    font-size: 2em;
+}
+
+.title, .sub-title {
+    font-family: monospace;
+    color: #f0f0f0;
+}
+
+#flood_fill_container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 400px;
+    height: 400px;
+}
+
+.cell {
+    border: 1px solid #7077A1;
+}
+
+.cell:hover {
+    background-color: #F6B17A;
+}
+
+.filled {
+    background-color: #F6B17A;
+}
